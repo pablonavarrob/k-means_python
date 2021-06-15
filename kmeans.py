@@ -4,15 +4,16 @@ from sklearn.datasets import make_blobs
 import glob
 import imageio
 
+
+###### These lines are only used for the testing and can be replaced at will #####
+
 # Define the number k of clusters
 K = 3
 
 # Create the test data set
 x, _ = make_blobs(n_samples=500, n_features=2, cluster_std = 2.5)
 
-# Generate random centers
-
-# In this test I tried to add a new line to test the branching capabilities of Github so I can learn a bit more about it to work in Procure AI as an intern, yai!
+#######
 
 # Define the function for the euclidean distance
 def get_euclidean_distance(x, y):
