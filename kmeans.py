@@ -12,6 +12,8 @@ x, _ = make_blobs(n_samples=500, n_features=2, cluster_std = 2.5)
 
 # Generate random centers
 
+# In this test I tried to add a new line to test the branching capabilities of Github so I can learn a bit more about it to work in Procure AI as an intern, yai!
+
 # Define the function for the euclidean distance
 def get_euclidean_distance(x, y):
     """ Returns the euclidean distance for a pair of arrays of the same
